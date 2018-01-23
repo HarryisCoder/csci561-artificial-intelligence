@@ -1,0 +1,55 @@
+4
+D(K)
+C(K)
+A(K)
+C(J)
+2
+P(y,y) | C(y)
+~P(x,K)
+
+1
+A(John)
+2
+~A(x) | B(x)
+~B(x) | A(x)
+
+1
+B(John)
+2
+A(x)
+~A(x) | B(John)
+
+1
+Criminal(West)
+7
+~American(x) | ~Weapon(y) | ~Sells(x,y,z) | ~Enemy(z,America) | Criminal(x)
+Owns(Nono,M1)
+Missile(M1)
+~Missile(x) | ~Owns(Nono,x) | Sells(West,x,Nono)
+~Missile(x) | Weapon(x)
+Enemy(Nono,America)
+American(West)
+
+1
+B(John)
+2
+A(x)
+~A(x) | B(John)
+
+1
+Criminal(West)
+7
+~American(x) | ~Weapon(y) | ~Sells(x,y,z) | ~Enemy(z,America) | Criminal(x)
+Owns(Nono,M1)
+Missile(M1)
+~Missile(x) | ~Owns(Nono,x) | Sells(West,x,Nono)
+~Missile(x) | Weapon(x)
+Enemy(Nono,America)
+American(West)
+
+1
+A(John)
+2
+~A(x) | B(x)
+~B(x) | A(x)
+
